@@ -1,0 +1,176 @@
+<!--Desktop Content-->
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  function adjustProgressBars() {
+    const strength = parseFloat(document.getElementById("progress-strength").getAttribute("value")) || 0;
+    const health = parseFloat(document.getElementById("progress-health").getAttribute("value")) || 0;
+    const wealth = parseFloat(document.getElementById("progress-wealth").getAttribute("value")) || 0;
+    const wisdom = parseFloat(document.getElementById("progress-wisdom").getAttribute("value")) || 0;
+    const skills = parseFloat(document.getElementById("progress-skills").getAttribute("value")) || 0;
+    
+    const total = strength + health + wealth + wisdom + skills;
+    let max = 100;
+
+    if (total <= 25) {
+      max = 25;
+    } else if (total > 25 && total < 100) {
+      max = 100;
+    } else if (total >= 100 && total < 200) {
+      max = 200;
+    } else if (total >= 200 && total < 300) {
+      max = 300;
+    } else if (total > 300) {
+      max = 500;
+    }
+    document.getElementById("progress-strength").setAttribute("max", max);
+    document.getElementById("progress-health").setAttribute("max", max);
+    document.getElementById("progress-wealth").setAttribute("max", max);
+    document.getElementById("progress-wisdom").setAttribute("max", max);
+    document.getElementById("progress-skills").setAttribute("max", max);
+  }
+
+  adjustProgressBars();
+});
+</script>
+
+<style>
+  .dark-mode-text {
+  color: white !important;
+}
+</style>
+
+<div class="container is-fluid">
+  <p>Welcome Back: <strong class="is-size-4">{{.profile.Username}}</strong></p>
+  <p>Current Level: <strong class="is-size-4">{{.profile.Level}}</strong></p>
+  <div class="divider"></div>
+  
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">Aspect Quest Completed</p>
+    </header>
+    {{if .questlog }}
+    <div class="card-content">
+      <div class="content">
+        {{range .questlog}}
+        <!-- Strength Progress Bar -->
+        <p>Strength</p>
+        {{if .Strength}}
+        <p class="is-size-7">{{.Strength}}</p>
+        <progress id="progress-strength" class="progress is-primary" value="{{.Strength}}" max="100">{{.Strength}}%</progress>
+        {{else}}
+        <progress id="progress-strength" class="progress is-primary" value="0" max="100">0%</progress>
+        {{end}}
+        <!-- Health Progress Bar -->
+        <p>Health</p>
+        {{if .Health}}
+        <p class="is-size-7">{{.Health}}</p>
+        <progress id="progress-health" class="progress is-info" value="{{.Health}}" max="100">{{.Health}}%</progress>
+        {{else}}
+        <progress id="progress-health" class="progress is-info" value="0" max="100">0%</progress>
+        {{end}}
+        <!-- Wealth Progress Bar -->
+        <p>Wealth</p>
+        {{if .Wealth}}
+        <p class="is-size-7">{{.Wealth}}</p>
+        <progress id="progress-wealth" class="progress is-success" value="{{.Wealth}}" max="100">{{.Wealth}}%</progress>
+        {{else}}
+        <progress id="progress-wealth" class="progress is-success" value="0" max="100">0%</progress>
+        {{end}}
+        <!-- Wisdom Progress Bar -->
+        <p>Wisdom</p>
+        {{if .Wisdom}}
+        <p class="is-size-7">{{.Wisdom}}</p>
+        <progress id="progress-wisdom" class="progress is-warning" value="{{.Wisdom}}" max="100">{{.Wisdom}}%</progress>
+        {{else}}
+        <progress id="progress-wisdom" class="progress is-warning" value="0" max="100">0%</progress>
+        {{end}}
+        <!-- Skills Progress Bar -->
+        <p>Skills</p>
+        {{if .Skills}}
+        <p class="is-size-7">{{.Skills}}</p>
+        <progress id="progress-skills" class="progress is-danger" value="{{.Skills}}" max="100">{{.Skills}}%</progress>
+        {{else}}
+        <progress id="progress-skills" class="progress is-danger" value="0" max="100">0%</progress>
+        {{end}}
+        {{end}}             
+      </div>
+    </div>
+    {{else}}
+    <div class="card-content">
+      <div class="content">
+        <blockquote>
+          <p>Looks like you haven't completed any quests yet. Click the button below to start your first quest!</p>
+          <a href="/startquest">Start New Quest</a>
+        </blockquote>
+      </div>      
+    </div>
+    {{end}}
+  </div>
+  <!--Quote of Day -->
+  <div class="card-content">
+    <div class="content">
+      <p><strong>{{.Quote}}</strong></p>
+      <p>-<strong>{{.Author}}</strong></p>
+    </div>
+  </div>
+  <!--Active Quest mobile-->
+  <div class="is-hidden-tablet dark-mode-text">
+    {{if .quest }}
+    <div class="block">
+      <p class="is-size-4 mb-2">Active Quests</p>
+      <a href="/startquest">Start New Quest</a>
+      <div class="divider"></div>
+    </div>
+    {{ range .quest }}  
+    <div class="block">
+      <a href="/getquest/{{.ID }}"><p class="is-size-5 mb-2">{{.Category}}<br>{{.Title}}<br>{{.Current}} {{.Unit}}<br>Milestone: {{.Target}} {{.Unit}}</p></a>
+    </div>
+    <div class="divider"></div>
+    {{end}}
+    {{else}}
+    <div class="block">
+      <p class="is-size-4 mb-2">No Active Quests</p>
+      <a href="/startquest" class="button is-primary mb-3">Start New Quest</a>
+    </div>
+    {{end}}
+  </div>
+  <!--Active Quest Desktop Cards-->
+  <div class="is-hidden-mobile">
+    {{if .quest }}
+    <div class="block">
+      <p class="is-size-4 mb-2">Active Quests</p>
+      <a href="/startquest" class="button is-primary mb-3">Start New Quest</a>
+      <div class="divider"></div>
+    <div class="columns">
+      {{ range .quest }}
+      <div class="column">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">{{.Category}}</p>            
+          </header>
+          <div class="card-content">
+            <div class="content">
+            <a href="/getquest/{{.ID }}">
+              <p class="has-text-weight-semibold">{{.Title}}...</p>              
+              <p>Current: {{.Current}} {{.Unit}}</p>
+              <p>Milestone: {{.Target}} {{.Unit}}</p>
+            </a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="/getquest/{{.ID }}" class="card-footer-item">View</a>
+          </footer>
+        </div>
+      </div>
+      {{end}}
+    </div>
+    {{else}}
+    <div class="block">
+      <p class="is-size-4 mb-2">No Active Quests</p>
+    </div>
+    {{end}}
+
+
+
+</div>

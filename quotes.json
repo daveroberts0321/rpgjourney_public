@@ -1,0 +1,1831 @@
+{
+  "quotes": [
+    {
+      "day": 1,
+      "quote": "The happiness of your life depends upon the quality of your thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 2,
+      "quote": "Think lightly of yourself and deeply of the world.",
+      "author": "Miyamoto Musashi"
+    },
+    {
+      "day": 3,
+      "quote": "Waste no more time arguing about what a good man should be. Be one.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 4,
+      "quote": "Do nothing that is of no use.",
+      "author": "Miyamoto Musashi"
+    },
+    {
+      "day": 5,
+      "quote": "It is not death that a man should fear, but he should fear never beginning to live.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 6,
+      "quote": "The ultimate aim of martial arts is not having to use them.",
+      "author": "Miyamoto Musashi"
+    },
+    {
+      "day": 7,
+      "quote": "The best revenge is not to be like your enemy.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 8,
+      "quote": "In the midst of chaos, there is also opportunity.",
+      "author": "Sun Tzu"
+    },
+    {
+      "day": 9,
+      "quote": "He who fears he will suffer, already suffers because he fears.",
+      "author": "Michel de Montaigne"
+    },
+    {
+      "day": 10,
+      "quote": "It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.",
+      "author": "Seneca"
+    },
+    {
+      "day": 11,
+      "quote": "A gem cannot be polished without friction, nor a man perfected without trials.",
+      "author": "Seneca"
+    },
+    {
+      "day": 12,
+      "quote": "The mind that is anxious about future events is miserable.",
+      "author": "Seneca"
+    },
+    {
+      "day": 13,
+      "quote": "The only wealth which you will keep forever is the wealth you have given away.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 14,
+      "quote": "He who conquers himself is the mightiest warrior.",
+      "author": "Confucius"
+    },
+    {
+      "day": 15,
+      "quote": "Perceive that which cannot be seen with the eye.",
+      "author": "Miyamoto Musashi"
+    },
+    {
+      "day": 16,
+      "quote": "First say to yourself what you would be; and then do what you have to do.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 17,
+      "quote": "The greater the difficulty, the more glory in surmounting it.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 18,
+      "quote": "To be calm is the highest achievement of the self.",
+      "author": "Zen Proverb"
+    },
+    {
+      "day": 19,
+      "quote": "Don't explain your philosophy. Embody it.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 20,
+      "quote": "A wise man does not grieve for the things which he has not, but rejoices for those which he has.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 21,
+      "quote": "We suffer more often in imagination than in reality.",
+      "author": "Seneca"
+    },
+    {
+      "day": 22,
+      "quote": "The impediment to action advances action. What stands in the way becomes the way.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 23,
+      "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 24,
+      "quote": "To be even-minded is the greatest virtue.",
+      "author": "Heraclitus"
+    },
+    {
+      "day": 25,
+      "quote": "Man conquers the world by conquering himself.",
+      "author": "Zeno of Citium"
+    },
+    {
+      "day": 26,
+      "quote": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 27,
+      "quote": "The greater the obstacle, the more glory in overcoming it.",
+      "author": "Molière"
+    },
+    {
+      "day": 28,
+      "quote": "Be tolerant with others and strict with yourself.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 29,
+      "quote": "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 30,
+      "quote": "The soul becomes dyed with the color of its thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 31,
+      "quote": "No man is free who is not master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 32,
+      "quote": "Wealth consists not in having great possessions, but in having few wants.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 33,
+      "quote": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 34,
+      "quote": "How long are you going to wait before you demand the best for yourself?",
+      "author": "Epictetus"
+    },
+    {
+      "day": 35,
+      "quote": "Circumstances don't make the man, they only reveal him to himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 36,
+      "quote": "Don't seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will – then your life will flow well.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 37,
+      "quote": "If you want to improve, be content to be thought foolish and stupid.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 38,
+      "quote": "No great thing is created suddenly.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 39,
+      "quote": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 40,
+      "quote": "Know, first, who you are, and then adorn yourself accordingly.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 41,
+      "quote": "He who has a why to live can bear almost any how.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 42,
+      "quote": "That which does not kill us makes us stronger.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 43,
+      "quote": "To live is to suffer, to survive is to find some meaning in the suffering.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 44,
+      "quote": "He who fights with monsters should be careful lest he thereby become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 45,
+      "quote": "Become who you are!",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 46,
+      "quote": "The higher we soar, the smaller we appear to those who cannot fly.",
+      "author": "Friedrich Nietzsche"
+    },
+    {
+      "day": 47,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 48,
+      "quote": "Begin at once to live, and count each separate day as a separate life.",
+      "author": "Seneca"
+    },
+    {
+      "day": 49,
+      "quote": "While we wait for life, life passes.",
+      "author": "Seneca"
+    },
+    {
+      "day": 50,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 51,
+      "quote": "As is a tale, so is life: not how long it is, but how good it is, is what matters.",
+      "author": "Seneca"
+    },
+    {
+      "day": 52,
+      "quote": "If a man knows not to which port he sails, no wind is favorable.",
+      "author": "Seneca"
+    },
+    {
+      "day": 53,
+      "quote": "Luck is what happens when preparation meets opportunity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 54,
+      "quote": "Most powerful is he who has himself in his own power.",
+      "author": "Seneca"
+    },
+    {
+      "day": 55,
+      "quote": "Wealth is the slave of a wise man. The master of a fool.",
+      "author": "Seneca"
+    },
+    {
+      "day": 56,
+      "quote": "No man was ever wise by chance.",
+      "author": "Seneca"
+    },
+    {
+      "day": 57,
+      "quote": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+      "author": "Seneca"
+    },
+    {
+      "day": 58,
+      "quote": "Time heals what reason cannot.",
+      "author": "Seneca"
+    },
+    {
+      "day": 59,
+      "quote": "He who is brave is free.",
+      "author": "Seneca"
+    },
+    {
+      "day": 60,
+      "quote": "A man's as miserable as he thinks he is.",
+      "author": "Seneca"
+    },
+    {
+      "day": 61,
+      "quote": "He who has great power should use it lightly.",
+      "author": "Seneca"
+    },
+    {
+      "day": 62,
+      "quote": "Man is affected not by events, but by the view he takes of them.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 63,
+      "quote": "What we achieve inwardly will change outer reality.",
+      "author": "Plutarch"
+    },
+    {
+      "day": 64,
+      "quote": "I begin to speak only when I'm certain what I'll say isn't better left unsaid.",
+      "author": "Cato the Younger"
+    },
+    {
+      "day": 65,
+      "quote": "You could leave life right now. Let that determine what you do and say and think.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 66,
+      "quote": "Receive without pride, let go without attachment.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 67,
+      "quote": "The soul becomes dyed with the color of its thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 68,
+      "quote": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+      "author": "Seneca"
+    },
+    {
+      "day": 69,
+      "quote": "There is no easy way from the earth to the stars.",
+      "author": "Seneca"
+    },
+    {
+      "day": 70,
+      "quote": "The bravest sight in the world is to see a great man struggling against adversity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 71,
+      "quote": "No man is more unhappy than he who never faces adversity. For he is not permitted to prove himself.",
+      "author": "Seneca"
+    },
+    {
+      "day": 72,
+      "quote": "If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person.",
+      "author": "Seneca"
+    },
+    {
+      "day": 73,
+      "quote": "If it is not right do not do it; if it is not true do not say it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 74,
+      "quote": "How much more grievous are the consequences of anger than the causes of it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 75,
+      "quote": "A man who suffers before it is necessary, suffers more than is necessary.",
+      "author": "Seneca"
+    },
+    {
+      "day": 76,
+      "quote": "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company.",
+      "author": "Seneca"
+    },
+    {
+      "day": 77,
+      "quote": "No man is free who is not a master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 78,
+      "quote": "Only the educated are free.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 79,
+      "quote": "If you want to improve, be content to be thought foolish and stupid.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 80,
+      "quote": "It's not what happens to you, but how you react to it that matters.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 81,
+      "quote": "If you wish to be a writer, write.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 82,
+      "quote": "Wealth consists not in having great possessions, but in having few wants.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 83,
+      "quote": "He who laughs at himself never runs out of things to laugh at.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 84,
+      "quote": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 85,
+      "quote": "No man is free who is not master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 86,
+      "quote": "Know, first, who you are, and then adorn yourself accordingly.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 87,
+      "quote": "First say to yourself what you would be; and then do what you have to do.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 88,
+      "quote": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 89,
+      "quote": "The greater the difficulty, the more glory in surmounting it.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 90,
+      "quote": "If thou wilt make a man happy, add not unto his riches but take away from his desires.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 91,
+      "quote": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 92,
+      "quote": "He who is not satisfied with a little, is satisfied with nothing.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 93,
+      "quote": "Not what we have but what we enjoy, constitutes our abundance.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 94,
+      "quote": "We begin to die as soon as we are born, and the end is linked to the beginning.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 95,
+      "quote": "The universe is change; our life is what our thoughts make it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 96,
+      "quote": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 97,
+      "quote": "Do every act of your life as though it were the very last act of your life.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 98,
+      "quote": "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 99,
+      "quote": "The best revenge is to be unlike him who performed the injury.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 100,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 101,
+      "quote": "Begin at once to live, and count each separate day as a separate life.",
+      "author": "Seneca"
+    },
+    {
+      "day": 102,
+      "quote": "While we wait for life, life passes.",
+      "author": "Seneca"
+    },
+    {
+      "day": 103,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 104,
+      "quote": "As is a tale, so is life: not how long it is, but how good it is, is what matters.",
+      "author": "Seneca"
+    },
+    {
+      "day": 105,
+      "quote": "If a man knows not to which port he sails, no wind is favorable.",
+      "author": "Seneca"
+    },
+    {
+      "day": 106,
+      "quote": "Luck is what happens when preparation meets opportunity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 107,
+      "quote": "Most powerful is he who has himself in his own power.",
+      "author": "Seneca"
+    },
+    {
+      "day": 108,
+      "quote": "Wealth is the slave of a wise man. The master of a fool.",
+      "author": "Seneca"
+    },
+    {
+      "day": 109,
+      "quote": "No man was ever wise by chance.",
+      "author": "Seneca"
+    },
+    {
+      "day": 110,
+      "quote": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+      "author": "Seneca"
+    },
+    {
+      "day": 111,
+      "quote": "Time heals what reason cannot.",
+      "author": "Seneca"
+    },
+    {
+      "day": 112,
+      "quote": "He who is brave is free.",
+      "author": "Seneca"
+    },
+    {
+      "day": 113,
+      "quote": "A man's as miserable as he thinks he is.",
+      "author": "Seneca"
+    },
+    {
+      "day": 114,
+      "quote": "He who has great power should use it lightly.",
+      "author": "Seneca"
+    },
+    {
+      "day": 115,
+      "quote": "Man is affected not by events, but by the view he takes of them.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 116,
+      "quote": "What we achieve inwardly will change outer reality.",
+      "author": "Plutarch"
+    },
+    {
+      "day": 117,
+      "quote": "I begin to speak only when I'm certain what I'll say isn't better left unsaid.",
+      "author": "Cato the Younger"
+    },
+    {
+      "day": 118,
+      "quote": "You could leave life right now. Let that determine what you do and say and think.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 119,
+      "quote": "Receive without pride, let go without attachment.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 120,
+      "quote": "The soul becomes dyed with the color of its thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 121,
+      "quote": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+      "author": "Seneca"
+    },
+    {
+      "day": 122,
+      "quote": "There is no easy way from the earth to the stars.",
+      "author": "Seneca"
+    },
+    {
+      "day": 123,
+      "quote": "The bravest sight in the world is to see a great man struggling against adversity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 124,
+      "quote": "No man is more unhappy than he who never faces adversity. For he is not permitted to prove himself.",
+      "author": "Seneca"
+    },
+    {
+      "day": 125,
+      "quote": "If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person.",
+      "author": "Seneca"
+    },
+    {
+      "day": 126,
+      "quote": "If it is not right do not do it; if it is not true do not say it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 127,
+      "quote": "How much more grievous are the consequences of anger than the causes of it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 128,
+      "quote": "A man who suffers before it is necessary, suffers more than is necessary.",
+      "author": "Seneca"
+    },
+    {
+      "day": 129,
+      "quote": "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company.",
+      "author": "Seneca"
+    },
+    {
+      "day": 130,
+      "quote": "No man is free who is not a master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 131,
+      "quote": "Only the educated are free.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 132,
+      "quote": "If you want to improve, be content to be thought foolish and stupid.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 133,
+      "quote": "It's not what happens to you, but how you react to it that matters.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 134,
+      "quote": "If you wish to be a writer, write.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 135,
+      "quote": "Wealth consists not in having great possessions, but in having few wants.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 136,
+      "quote": "He who laughs at himself never runs out of things to laugh at.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 137,
+      "quote": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 138,
+      "quote": "No man is free who is not master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 139,
+      "quote": "Know, first, who you are, and then adorn yourself accordingly.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 140,
+      "quote": "First say to yourself what you would be; and then do what you have to do.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 141,
+      "quote": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 142,
+      "quote": "The greater the difficulty, the more glory in surmounting it.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 143,
+      "quote": "If thou wilt make a man happy, add not unto his riches but take away from his desires.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 144,
+      "quote": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 145,
+      "quote": "He who is not satisfied with a little, is satisfied with nothing.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 146,
+      "quote": "Not what we have but what we enjoy, constitutes our abundance.",
+      "author": "Epicurus"
+    },
+    {
+      "day": 147,
+      "quote": "We begin to die as soon as we are born, and the end is linked to the beginning.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 148,
+      "quote": "The universe is change; our life is what our thoughts make it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 149,
+      "quote": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 150,
+      "quote": "Do every act of your life as though it were the very last act of your life.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 151,
+      "quote": "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 152,
+      "quote": "The best revenge is to be unlike him who performed the injury.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 153,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 154,
+      "quote": "Begin at once to live, and count each separate day as a separate life.",
+      "author": "Seneca"
+    },
+    {
+      "day": 155,
+      "quote": "While we wait for life, life passes.",
+      "author": "Seneca"
+    },
+    {
+      "day": 156,
+      "quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "author": "Seneca"
+    },
+    {
+      "day": 157,
+      "quote": "As is a tale, so is life: not how long it is, but how good it is, is what matters.",
+      "author": "Seneca"
+    },
+    {
+      "day": 158,
+      "quote": "If a man knows not to which port he sails, no wind is favorable.",
+      "author": "Seneca"
+    },
+    {
+      "day": 159,
+      "quote": "Luck is what happens when preparation meets opportunity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 160,
+      "quote": "Most powerful is he who has himself in his own power.",
+      "author": "Seneca"
+    },
+    {
+      "day": 161,
+      "quote": "Wealth is the slave of a wise man. The master of a fool.",
+      "author": "Seneca"
+    },
+    {
+      "day": 162,
+      "quote": "No man was ever wise by chance.",
+      "author": "Seneca"
+    },
+    {
+      "day": 163,
+      "quote": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+      "author": "Seneca"
+    },
+    {
+      "day": 164,
+      "quote": "Time heals what reason cannot.",
+      "author": "Seneca"
+    },
+    {
+      "day": 165,
+      "quote": "He who is brave is free.",
+      "author": "Seneca"
+    },
+    {
+      "day": 166,
+      "quote": "A man's as miserable as he thinks he is.",
+      "author": "Seneca"
+    },
+    {
+      "day": 167,
+      "quote": "He who has great power should use it lightly.",
+      "author": "Seneca"
+    },
+    {
+      "day": 168,
+      "quote": "Man is affected not by events, but by the view he takes of them.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 169,
+      "quote": "What we achieve inwardly will change outer reality.",
+      "author": "Plutarch"
+    },
+    {
+      "day": 170,
+      "quote": "I begin to speak only when I'm certain what I'll say isn't better left unsaid.",
+      "author": "Cato the Younger"
+    },
+    {
+      "day": 171,
+      "quote": "You could leave life right now. Let that determine what you do and say and think.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 172,
+      "quote": "Receive without pride, let go without attachment.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 173,
+      "quote": "The soul becomes dyed with the color of its thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 174,
+      "quote": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+      "author": "Seneca"
+    },
+    {
+      "day": 175,
+      "quote": "There is no easy way from the earth to the stars.",
+      "author": "Seneca"
+    },
+    {
+      "day": 176,
+      "quote": "The bravest sight in the world is to see a great man struggling against adversity.",
+      "author": "Seneca"
+    },
+    {
+      "day": 177,
+      "quote": "No man is more unhappy than he who never faces adversity. For he is not permitted to prove himself.",
+      "author": "Seneca"
+    },
+    {
+      "day": 178,
+      "quote": "If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person.",
+      "author": "Seneca"
+    },
+    {
+      "day": 179,
+      "quote": "If it is not right do not do it; if it is not true do not say it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 180,
+      "quote": "How much more grievous are the consequences of anger than the causes of it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "day": 181,
+      "quote": "A man who suffers before it is necessary, suffers more than is necessary.",
+      "author": "Seneca"
+    },
+    {
+      "day": 182,
+      "quote": "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company.",
+      "author": "Seneca"
+    },
+    {
+      "day": 183,
+      "quote": "No man is free who is not a master of himself.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 184,
+      "quote": "Only the educated are free.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 185,
+      "quote": "If you want to improve, be content to be thought foolish and stupid.",
+      "author": "Epictetus"
+    },
+    {
+      "day": 186,
+      "quote": "Discipline is the soul of an army. It makes small numbers formidable; procures success to the weak, and esteem to all.",
+      "author": "George Washington"
+    },
+    {
+      "day": 187,
+      "quote": "The price of greatness is responsibility.",
+      "author": "Winston Churchill"
+    },
+    {
+      "day": 188,
+      "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston Churchill"
+    },
+    {
+      "day": 189,
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 190,
+      "quote": "In matters of style, swim with the current; in matters of principle, stand like a rock.",
+      "author": "Thomas Jefferson"
+    },
+    {
+      "day": 191,
+      "quote": "A man who dares to waste one hour of time has not discovered the value of life.",
+      "author": "Charles Darwin"
+    },
+    {
+      "day": 192,
+      "quote": "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 193,
+      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "day": 194,
+      "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "day": 195,
+      "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "author": "Edmund Burke"
+    },
+    {
+      "day": 196,
+      "quote": "We make a living by what we get, but we make a life by what we give.",
+      "author": "Winston Churchill"
+    },
+    {
+      "day": 197,
+      "quote": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "day": 198,
+      "quote": "The future belongs to those who prepare for it today.",
+      "author": "Malcolm X"
+    },
+    {
+      "day": 199,
+      "quote": "The harder the conflict, the greater the triumph.",
+      "author": "George Washington"
+    },
+    {
+      "day": 200,
+      "quote": "It is better to offer no excuse than a bad one.",
+      "author": "George Washington"
+    },
+    {
+      "day": 201,
+      "quote": "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 202,
+      "quote": "Courage is not the absence of fear, but rather the assessment that something else is more important than fear.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 203,
+      "quote": "Happiness lies in the joy of achievement and the thrill of creative effort.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 204,
+      "quote": "A man must be big enough to admit his mistakes, smart enough to profit from them, and strong enough to correct them.",
+      "author": "John C. Maxwell"
+    },
+    {
+      "day": 205,
+      "quote": "Strength does not come from physical capacity. It comes from an indomitable will.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "day": 206,
+      "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "day": 207,
+      "quote": "An ounce of practice is worth more than tons of preaching.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "day": 208,
+      "quote": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "day": 209,
+      "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+      "author": "John C. Maxwell"
+    },
+    {
+      "day": 210,
+      "quote": "Do not pray for easy lives. Pray to be stronger men.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 211,
+      "quote": "Efforts and courage are not enough without purpose and direction.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 212,
+      "quote": "Ask not what your country can do for you – ask what you can do for your country.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 213,
+      "quote": "Victory belongs to the most persevering.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "day": 214,
+      "quote": "A soldier will fight long and hard for a bit of colored ribbon.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "day": 215,
+      "quote": "He who fears being conquered is sure of defeat.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "day": 216,
+      "quote": "Impossible is a word to be found only in the dictionary of fools.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "day": 217,
+      "quote": "If you want a thing done well, do it yourself.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "day": 218,
+      "quote": "The world is a book, and those who do not travel read only one page.",
+      "author": "Saint Augustine"
+    },
+    {
+      "day": 219,
+      "quote": "Patience is the companion of wisdom.",
+      "author": "Saint Augustine"
+    },
+    {
+      "day": 220,
+      "quote": "The measure of love is to love without measure.",
+      "author": "Saint Augustine"
+    },
+    {
+      "day": 221,
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 222,
+      "quote": "It always seems impossible until it's done.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 223,
+      "quote": "Education is the most powerful weapon which you can use to change the world.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 224,
+      "quote": "I learned that courage was not the absence of fear, but the triumph over it.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 225,
+      "quote": "To deny people their human rights is to challenge their very humanity.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 226,
+      "quote": "Resentment is like drinking poison and then hoping it will kill your enemies.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 227,
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 228,
+      "quote": "A good head and a good heart are always a formidable combination.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "day": 229,
+      "quote": "Our greatest glory is not in never failing, but in rising every time we fail.",
+      "author": "Confucius"
+    },
+    {
+      "day": 230,
+      "quote": "It does not matter how slowly you go as long as you do not stop.",
+      "author": "Confucius"
+    },
+    {
+      "day": 231,
+      "quote": "The man who moves a mountain begins by carrying away small stones.",
+      "author": "Confucius"
+    },
+    {
+      "day": 232,
+      "quote": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.",
+      "author": "Confucius"
+    },
+    {
+      "day": 233,
+      "quote": "The superior man is modest in his speech but exceeds in his actions.",
+      "author": "Confucius"
+    },
+    {
+      "day": 234,
+      "quote": "Real knowledge is to know the extent of one's ignorance.",
+      "author": "Confucius"
+    },
+    {
+      "day": 235,
+      "quote": "Our greatest glory is not in never falling, but in rising every time we fall.",
+      "author": "Confucius"
+    },
+    {
+      "day": 236,
+      "quote": "The journey of a thousand miles begins with one step.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 237,
+      "quote": "He who conquers others is strong; He who conquers himself is mighty.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 238,
+      "quote": "Knowing others is intelligence; knowing yourself is true wisdom.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 239,
+      "quote": "Mastering others is strength. Mastering yourself is true power.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 240,
+      "quote": "When I let go of what I am, I become what I might be.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 241,
+      "quote": "The best fighter is never angry.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 242,
+      "quote": "The snow goose need not bathe to make itself white. Neither need you do anything but be yourself.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 243,
+      "quote": "Great acts are made up of small deeds.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 244,
+      "quote": "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 245,
+      "quote": "To lead people, walk behind them.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 246,
+      "quote": "Treat those who are good with goodness, and also treat those who are not good with goodness. Thus goodness is attained.",
+      "author": "Lao Tzu"
+    },
+    {
+      "day": 247,
+      "quote": "The best way to find out if you can trust somebody is to trust them.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 248,
+      "quote": "Courage is grace under pressure.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 249,
+      "quote": "But man is not made for defeat. A man can be destroyed but not defeated.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 250,
+      "quote": "Every man's life ends the same way. It is only the details of how he lived and how he died that distinguish one man from another.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 251,
+      "quote": "The world breaks everyone, and afterward, some are strong at the broken places.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 252,
+      "quote": "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 253,
+      "quote": "We are all apprentices in a craft where no one ever becomes a master.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 254,
+      "quote": "I love sleep. My life has the tendency to fall apart when I'm awake, you know?",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 255,
+      "quote": "In order to write about life first you must live it.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 256,
+      "quote": "There is no friend as loyal as a book.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 257,
+      "quote": "The best way to find out if you can trust somebody is to trust them.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 258,
+      "quote": "Happiness in intelligent people is the rarest thing I know.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "day": 259,
+      "quote": "There is no limit to the amount of good you can do if you don't care who gets the credit.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 260,
+      "quote": "We can't help everyone, but everyone can help someone.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 261,
+      "quote": "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 262,
+      "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 263,
+      "quote": "Live simply, love generously, care deeply, speak kindly, leave the rest to God.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 264,
+      "quote": "If we ever forget that we are One Nation Under God, then we will be a nation gone under.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 265,
+      "quote": "The future doesn't belong to the fainthearted; it belongs to the brave.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 266,
+      "quote": "We should measure welfare's success by how many people leave welfare, not by how many are added.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 267,
+      "quote": "We will always remember. We will always be proud. We will always be prepared, so we will always be free.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 268,
+      "quote": "When you can't make them see the light, make them feel the heat.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 269,
+      "quote": "The most terrifying words in the English language are: I'm from the government and I'm here to help.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 270,
+      "quote": "Trust, but verify.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "day": 271,
+      "quote": "It is better to offer no excuse than a bad one.",
+      "author": "George Washington"
+    },
+    {
+      "day": 272,
+      "quote": "To be prepared for war is one of the most effective means of preserving peace.",
+      "author": "George Washington"
+    },
+    {
+      "day": 273,
+      "quote": "Discipline is the soul of an army. It makes small numbers formidable; procures success to the weak, and esteem to all.",
+      "author": "George Washington"
+    },
+    {
+      "day": 274,
+      "quote": "Observe good faith and justice toward all nations. Cultivate peace and harmony with all.",
+      "author": "George Washington"
+    },
+    {
+      "day": 275,
+      "quote": "Liberty, when it begins to take root, is a plant of rapid growth.",
+      "author": "George Washington"
+    },
+    {
+      "day": 276,
+      "quote": "Perseverance and spirit have done wonders in all ages.",
+      "author": "George Washington"
+    },
+    {
+      "day": 277,
+      "quote": "Happiness and moral duty are inseparably connected.",
+      "author": "George Washington"
+    },
+    {
+      "day": 278,
+      "quote": "Truth will ultimately prevail where there is pains to bring it to light.",
+      "author": "George Washington"
+    },
+    {
+      "day": 279,
+      "quote": "Guard against the impostures of pretended patriotism.",
+      "author": "George Washington"
+    },
+    {
+      "day": 280,
+      "quote": "The harder the conflict, the greater the triumph.",
+      "author": "George Washington"
+    },
+    {
+      "day": 281,
+      "quote": "It is better to offer no excuse than a bad one.",
+      "author": "George Washington"
+    },
+    {
+      "day": 282,
+      "quote": "Show me a man who has never made a mistake, and I will show you one who has never tried anything.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 283,
+      "quote": "A person who never made a mistake never tried anything new.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 284,
+      "quote": "Try not to become a man of success, but rather try to become a man of value.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 285,
+      "quote": "Strive not to be a success, but rather to be of value.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 286,
+      "quote": "In the middle of difficulty lies opportunity.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 287,
+      "quote": "Only a life lived for others is a life worthwhile.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 288,
+      "quote": "Weakness of attitude becomes weakness of character.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 289,
+      "quote": "If you can't explain it simply, you don't understand it well enough.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 290,
+      "quote": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 291,
+      "quote": "Look deep into nature, and then you will understand everything better.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 292,
+      "quote": "If people are good only because they fear punishment, and hope for reward, then we are a sorry lot indeed.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 293,
+      "quote": "A table, a chair, a bowl of fruit and a violin; what else does a man need to be happy?",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 294,
+      "quote": "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 295,
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 296,
+      "quote": "Imagination is everything. It is the preview of life's coming attractions.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 297,
+      "quote": "A human being is part of a whole called by us the universe.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 298,
+      "quote": "Anyone who has never made a mistake has never tried anything new.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 299,
+      "quote": "Great spirits have always encountered violent opposition from mediocre minds.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 300,
+      "quote": "The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 301,
+      "quote": "What is right is not always popular and what is popular is not always right.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 302,
+      "quote": "The important thing is not to stop questioning.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 303,
+      "quote": "Logic will get you from A to B. Imagination will take you everywhere.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 304,
+      "quote": "If you want to live a happy life, tie it to a goal, not to people or things.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 305,
+      "quote": "The value of a man should be seen in what he gives and not in what he is able to receive.",
+      "author": "Albert Einstein"
+    },
+    {
+      "day": 306,
+      "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+      "author": "Albert Schweitzer"
+    },
+    {
+      "day": 307,
+      "quote": "A man does what he must - in spite of personal consequences, in spite of obstacles and dangers and pressures - and that is the basis of all human morality.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 308,
+      "quote": "Things do not happen. Things are made to happen.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 309,
+      "quote": "Efforts and courage are not enough without purpose and direction.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 310,
+      "quote": "The greater our knowledge increases, the greater our ignorance unfolds.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 311,
+      "quote": "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 312,
+      "quote": "Conformity is the jailer of freedom and the enemy of growth.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 313,
+      "quote": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 314,
+      "quote": "If not us, who? If not now, when?",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 315,
+      "quote": "Do not pray for easy lives. Pray to be stronger men.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 316,
+      "quote": "A nation reveals itself not only by the men it produces but also by the men it honors, the men it remembers.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 317,
+      "quote": "Leadership and learning are indispensable to each other.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 318,
+      "quote": "Ask not what your country can do for you – ask what you can do for your country.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "day": 319,
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 320,
+      "quote": "It is not fair to ask of others what you are not willing to do yourself.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 321,
+      "quote": "No one can make you feel inferior without your consent.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 322,
+      "quote": "Do what you feel in your heart to be right – for you’ll be criticized anyway.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 323,
+      "quote": "You must do the things you think you cannot do.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 324,
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "day": 325,
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 326,
+      "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 327,
+      "quote": "We cannot always build the future for our youth, but we can build our youth for the future.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 328,
+      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 329,
+      "quote": "Men are not prisoners of fate, but only prisoners of their own minds.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 330,
+      "quote": "Happiness lies in the joy of achievement and the thrill of creative effort.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 331,
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 332,
+      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 333,
+      "quote": "In the truest sense, freedom cannot be bestowed; it must be achieved.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 334,
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 335,
+      "quote": "It is hard to fail, but it is worse never to have tried to succeed.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 336,
+      "quote": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 337,
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 338,
+      "quote": "Keep your eyes on the stars, and your feet on the ground.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 339,
+      "quote": "Speak softly and carry a big stick; you will go far.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 340,
+      "quote": "To educate a man in mind and not in morals is to educate a menace to society.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 341,
+      "quote": "A thorough knowledge of the Bible is worth more than a college education.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 342,
+      "quote": "Far and away the best prize that life has to offer is the chance to work hard at work worth doing.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 343,
+      "quote": "When you play, play hard; when you work, don't play at all.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 344,
+      "quote": "The only man who never makes mistakes is the man who never does anything.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 345,
+      "quote": "With self-discipline most anything is possible.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 346,
+      "quote": "Courage is not having the strength to go on; it is going on when you don't have the strength.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 347,
+      "quote": "When you're at the end of your rope, tie a knot and hold on.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 348,
+      "quote": "It is hard to fail, but it is worse never to have tried to succeed.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 349,
+      "quote": "The most important single ingredient in the formula of success is knowing how to get along with people.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 350,
+      "quote": "People don't care how much you know until they know how much you care.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 351,
+      "quote": "Far and away the best prize that life has to offer is the chance to work hard at work worth doing.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 352,
+      "quote": "Don't hit at all if it is honorably possible to avoid hitting; but never hit soft.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 353,
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 354,
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 355,
+      "quote": "We cannot always build the future for our youth, but we can build our youth for the future.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 356,
+      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 357,
+      "quote": "Men are not prisoners of fate, but only prisoners of their own minds.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 358,
+      "quote": "Happiness lies in the joy of achievement and the thrill of creative effort.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 359,
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 360,
+      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 361,
+      "quote": "In the truest sense, freedom cannot be bestowed; it must be achieved.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "day": 362,
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 363,
+      "quote": "It is hard to fail, but it is worse never to have tried to succeed.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 364,
+      "quote": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "day": 365,
+      "quote": "Keep your eyes on the stars, and your feet on the ground.",
+      "author": "Theodore Roosevelt"
+    }
+  ]
+}
+
+    

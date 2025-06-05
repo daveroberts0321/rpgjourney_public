@@ -1,0 +1,66 @@
+<!-- Hero Section -->
+<style>
+  .hero-background {
+      background-image: url('/static/images/hero.webp');
+      background-size: cover;
+      background-position: left;
+      animation: horizontalPan 20s linear infinite;
+  }
+
+  @keyframes horizontalPan {
+      0% { background-position: left; }
+      100% { background-position: right; }
+  }
+
+  .glassmorphism {
+      background: transparent;
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 20px;
+  }
+
+  .table-container {
+      margin-top: 20px;
+  }
+</style>
+
+<section class="hero is-fullheight hero-background">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+          <div class="glassmorphism">
+              <h1 class="title has-text-white">RPG Journey Blog</h1>
+              <p class="subtitle has-text-white">Read the latest posts from our community</p>
+              <a href="/new-post" class="button is-primary">Create New Post</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Blog List Section -->
+<section class="section">
+  <div class="container">
+      <h2 class="title is-4">Latest Blog Posts</h2>
+      <div class="table-container">
+          <table class="table is-fullwidth is-hoverable">
+              <thead>
+                  <tr>
+                      <th>Title</th>
+                      <th>Author</th>
+                      <th>Date</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  {{range .blogposts}}
+                  <tr>
+                      <td><a href="/blog/{{.ID}}">{{.Title}}</a></td>                      
+                      <td>{{.Username}}</td>
+                      <td>{{.UpdatedAt.Format "2006-01-02"}}</td>
+                  </tr>
+                  {{end}}
+              </tbody>
+          </table>
+      </div>
+  </div>
+</section>

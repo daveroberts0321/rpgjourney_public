@@ -1,0 +1,33 @@
+<!-- Include stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+
+
+<!-- Create the editor container/ https://quilljs.com/docs/ -->
+<form id="blog-form" method="POST" action="/savepost">
+  <input
+      class="input is-link mb-2 pb-2"
+      id="title"
+      name="title"
+      type="text"
+      placeholder="Enter Blog Title"
+  />
+  <div id="editor-container" class="mt-3 p-1"></div>
+  <input type="hidden" id="content" name="content">
+  <button type="submit" class="button is-primary mb-3 pb-2">Save</button>
+</form>
+
+<!-- Include the Quill library -->
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
+<!-- Initialize Quill editor -->
+<script>
+var quill = new Quill('#editor-container', {
+            theme: 'snow'
+        });
+
+        document.getElementById('blog-form').addEventListener('submit', function(event) {
+            // Populate the hidden input with the editor content before submitting
+            var content = quill.root.innerHTML;
+            document.getElementById('content').value = content;
+        });
+</script>

@@ -1,0 +1,94 @@
+<!--StartQuest / Form-->
+
+
+<!--Desktop Content-->
+<div class="container is-fluid">
+  <section class="section">
+    <div class="container">
+        <h1 class="title">Start a New Quest</h1>
+        <form action="/startquest" method="POST">
+            <div class="field">
+                <label class="label">Category</label>
+                <div class="control">
+                    <div class="select">
+                        <select required name="category" required>
+                            <option value="">Select Category</option>
+                            <option value="Strength">Strength</option>
+                            <option value="Health">Health</option>
+                            <option value="Wealth">Wealth</option>
+                            <option value="Wisdom">Wisdom</option>
+                            <option value="Skills">Skills</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Quest Title</label>
+                <div class="control">
+                    <input required class="input" type="text" name="title" placeholder="Quest Title" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Quest Description</label>
+                <div class="control">
+                    <textarea required class="textarea" name="description" placeholder="Quest Description"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+            <label class="label">Unit of Measure</label>
+            <small class="is-size-7">Unit of Measure. Its important to choose a smaller unit of measure for proper functionality</small>
+
+            <div class="control">
+                <div class="select">
+                    <select required name="unit" required>
+                        <option value="">Select Unit</option>
+                        <option value="Lbs">Lbs</option>
+                        <option value="Kg">Kg</option>
+                        <option value="Miles">Miles</option>
+                        <option value="Yards">Yards</option>
+                        <option value="Feet">Feet</option>
+                        <option value="Meters">Meters</option>
+                        <option value="Minutes">Minutes</option>
+                        <option value="Seconds">Seconds</option>
+                        <option value="Dollars">Dollars</option>
+                        <option value="Reps">Repetitions</option>
+                        <option value="Other">Other Unit</option>                          
+                    </select>
+                </div>
+            </div>
+          </div>
+        <div class="field">
+            <label class="label">Starting Value</label>
+            <div class="control">
+                <input class="input" type="number" step="0.01" name="starting" placeholder="Starting Value" required>
+            </div>
+            <small class="is-size-7">Where are you today</small>
+        </div>
+        <div class="field">
+            <label class="label">Do you need more or less of this number</label>
+            <small class="is-size-7">Body weight is typically Descending Goal/ Where Savings would be Ascending</small>
+
+            <div class="control">
+                <div class="select">
+                    <select required name="ascending" required>
+                        <option value="">Select Goal Type</option>
+                        <option value="ascending">More</option>
+                        <option value="descending">Less</option>                         
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <button class="button is-primary" type="submit">Start Quest</button>
+            </div>
+        </div>
+
+        </form>
+    </div>
+</section>
+ 
+</div>

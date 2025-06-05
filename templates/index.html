@@ -1,0 +1,415 @@
+<!--Index page-->
+<style>
+    .hero-background {
+        background-image: url('/static/images/hero.webp');
+        background-size: cover;
+        background-position: left;
+        animation: horizontalPan 20s linear infinite;
+    }
+
+    @keyframes horizontalPan {
+        0% { background-position: left; }
+        100% { background-position: right; }
+    }
+
+    .glassmorphism {
+        background: transparent;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px;
+    }
+    .desk-hero-background {
+        background-image: url('/static/images/desktophero.png');
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+    }
+
+    .desk-glassmorphism {
+        background: transparent;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 20px;        
+    }
+
+</style>
+
+<!-- Hero Mobile -->
+<section class="hero is-fullheight is-hidden-tablet hero-background">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="glassmorphism">
+          <h1 class="title has-text-white">RPG Journey</h1>
+          <p class="subtitle has-text-white">This is Your Story<br>Become the Hero</p>
+          <a href="/register" class="button is-primary">Register</a>
+          <a href="/login" class="button is-link">Login</a>
+        </div>
+      </div>
+    </div>
+</section>
+<div class="is-hidden-tablet has-text-black">
+    <section class="section">
+        <h1 class="is-size-4 has-text-weight-bold">Welcome to RPG Journey</h1>
+        <p class="is-size-5 has-text-weight-semibold">Level Up Your Life</p>
+        <a href="/register" class="button is-primary">Get Started</a>
+        <p>Success is doing better every day. Focus on making yourself a little better day after day. Build better habits, build a better life.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+        <h1 class="is-size-5">The Five Aspects</h1>
+        <div>
+            <a href="#strength"><p class="is-size-5 has-text-weight-bold">Strength</p></a>
+            <a href="#health"><p class="is-size-5 has-text-weight-bold">Health</p></a>
+            <a href="#wealth"><p class="is-size-5 has-text-weight-bold">Wealth</p></a>
+            <a href="#wisdom"><p class="is-size-5 has-text-weight-bold">Wisdom</p></a>
+            <a href="#skills"><p class="is-size-5 has-text-weight-bold">Skills</p></a>
+        </div>
+    </section>
+
+    <div class="container is-fluid is-hidden-tablet">
+        <!-- Strength Aspect -->
+        <div class="card mb-5">
+            <div class="card-content">
+                <h1 class="title is-5">Strength</h1>
+                <p class="is-size-5">
+                    Develop your physical abilities.
+                    <br><br>
+                    Examples:
+                    <br> - 1 Mile Run: 600s (Next: 594s)
+                    <br> - 3/6/9 in 20 min: 22 reps (Next: 23 reps)
+                </p>
+            </div>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="static/images/strength.webp" alt="Strength">
+                </figure>
+            </div>
+        </div>
+    
+        <!-- Health Aspect -->
+        <div class="card mb-5">
+            <div class="card-content">
+                <h1 class="title is-5">Health</h1>
+                <p class="is-size-6 has-text-black">
+                    Focus on overall health, weight, and diet.
+                    <br><br>
+                    Examples:
+                    <br> - Weight Loss: 200 lbs (Next: 198 lbs)
+                    <br> - Daily Caloric Intake: 2200 calories (Next: 2178 calories)
+                </p>
+            </div>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="static/images/health.webp" alt="Health">
+                </figure>
+            </div>
+        </div>
+    
+        <!-- Wealth Aspect -->
+        <div class="card mb-5">
+            <div class="card-content">
+                <h1 class="title is-5">Wealth</h1>
+                <p class="is-size-6">
+                    Improve financial health and growth.
+                    <br><br>
+                    Examples:
+                    <br> - Savings: $1000 (Next: $1010)
+                    <br> - Yearly Income: $50,000 (Next: $50,500)
+                </p>
+            </div>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="static/images/wealth.webp" alt="Wealth">
+                </figure>
+            </div>
+        </div>
+    
+        <!-- Wisdom Aspect -->
+        <div class="card mb-5">
+            <div class="card-content">
+                <h1 class="title is-5">Wisdom</h1>
+                <p class="is-size-6">
+                    Focus on mental health and growth.
+                    <br><br>
+                    Examples:
+                    <br> - Reading: 30 min (Next: 31 min)
+                    <br> - Meditation: 10 min (Next: 11 min)
+                </p>
+            </div>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="static/images/wisdom.webp" alt="Wisdom">
+                </figure>
+            </div>
+        </div>
+    
+        <!-- Skills Aspect -->
+        <div class="card mb-5">
+            <div class="card-content">
+                <h1 class="title is-5">Skills</h1>
+                <p class="is-size-6 ">
+                    Personal and professional growth.
+                    <br><br>
+                    Examples:
+                    <br> - Javascript Coding: 1 hour (Next: 1 hour 1 min)
+                    <br> - Creative Writing: 500 words (Next: 510 words)
+                </p>
+            </div>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="static/images/skills.webp" alt="Skills">
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- The Journey -->
+    <section class="section">
+        <p class="is-size-4 has-text-weight-semibold">Quick Example of 1% Improvement</p>
+        <div class="mt-3">
+          <p class="is-size-6 ">
+            <strong class="is-size-5 has-text-weight-semibold">Starting Point</strong><br>
+            - Run: 600 seconds (10 min/mile)<br>
+            - Pushups: 60 reps in 2 min<br>
+            - Weight: 200 lbs<br>
+            - Savings: $4235<br>
+            - Income: $3000/month<br>
+          </p>  
+          <p class="is-size-6 ">
+            <strong class="is-size-5 has-text-weight-semibold">After 35 Milestones</strong><br>
+            - Run: 422 seconds (7 min/mile)<br>
+            - Pushups: 85 reps in 2 min<br>
+            - Weight: 140 lbs<br>
+            - Savings: $5999<br>
+            - Income: $4250/month<br>
+          </p>  
+          <p class="is-size-5 has-text-weight-semibold">
+            levelZeroHero is now a Level 8 Hero<br>
+            Strength Level 7<br>
+            Health Level 3<br>
+            Wealth Level 7<br>
+            Total Milestones Completed: 175            
+          </p>   
+          <p class="is-size-6 mt-2">
+            This shows how small improvements add up to big changes!
+          </p>
+        </div>
+    </section>
+</div>
+<!--Mobile Content End-->
+
+
+<!--Desktop Content-->
+<div class="container is-fluid is-hidden-mobile has-text-primary-00">
+    <section class="section desk-hero-background is-hidden-mobile">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-half is-offset-half">
+                    <div class="desk-glassmorphism">
+                        <h1 class="is-size-3 has-text-weight-bold">Welcome to RPG Journey</h1>
+                        <p class="is-size-4 has-text-weight-semibold">This is Your Story, Become the Hero</p>                        
+                        <a href="/register" class="button is-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>   
+    <div class="columns">
+        <div class="column">
+            <p class="is-size-5" >Set Your OWN Quest....</p>           
+            <p class="has-text-black is-size-6">
+                Your life should be focused as a journey of improvement. Our method takes the five aspects and allows you to set your own path to improvement. 
+                Each day you will be focused on bettering yourself, not to reach a destination, but to enjoy the journey.
+            </p>
+        </div>
+        <div class="column">
+            <h1 class="is-size-5">The Five Aspects</h1>
+            <div class="grid mt-3">
+                <div class="cell">
+                    <a href="#strength"><p class="is-size-4 has-text-weight-bold">Strength</p></a>
+                </div>
+                <div class="cell">
+                    <a href="#health"><p class="is-size-4 has-text-weight-bold">Health</p></a>
+                </div>
+                <div class="cell">
+                    <a href="#wealth"><p class="is-size-4 has-text-weight-bold">Wealth</p></a>
+                </div>
+                <div class="cell">
+                    <a href="#wisdom"><p class="is-size-4 has-text-weight-bold">Wisdom</p></a>
+                </div>
+                <div class="cell">
+                    <a href="#skills"><p class="is-size-4 has-text-weight-bold">Skills</p></a>
+                </div>
+            </div>            
+        </div>            
+    </div>
+    <!--Aspects-->
+    <div class="divider"></div>
+    <div id="strength" class="columns">
+        <div class="column is-two-thirds">
+            <a href="/strength"><h1 class="is-size-4 has-text-weight-bold">Strength</h1></a>
+            <h3 class="h4 mb-2">The Strength aspects is about developing your physical abilites</h3>
+            <p class="is-size-6 has-text-black">                
+                Examples of Strength Tasks include: <br>
+                - 1 MILE RUN - 600 seconds - decending - Next Milestone: 594 seconds <br>
+                Desc: A 1 mile run time of 10 min broken into seconds for a more realistic milestone of 9min 54 seconds. <br>
+                - 3/6/9 in 20 min - 22 reps - ascending - Next Milestone: 23 reps<br>   
+                Desc: As many reps as possible of 3 pullups, 6 pushups, 9 squats in 20 min. Increase reps by 1 each milestone. <br>
+            </p>
+            <small class="is-size-7">Reminder, You start, stop, and set your OWN TASK and unit of measure.</small>
+        </div>
+        <div class="column is-one-third">
+            <figure class="image is-square">
+                <img src="static/images/strength.webp" />
+            </figure>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div id="health" class="columns">
+        <div class="column is-one-third">
+            <figure class="image is-square">
+                <img src="static/images/health.webp" />
+            </figure>
+        </div>
+        <div class="column is-two-thirds">
+            <a href="/health"><h1 class="is-size-4 has-text-weight-bold">Health</h1></a>
+            <h3 class="h4 mb-2">The Health aspect is overall health, weight, and diet</h3>
+            <p class="is-size-6 has-text-black">                
+                Examples of HEALTH Tasks include: <br>
+                - Weight Loss - 200 lbs - descending - Next Milestone: 198lbs <br>
+                Desc: Overall Weight loss of 1% of 200lbs or 2lbs for next milestone being 198lbs <br>
+                - Daily Caloric Intake - 2200 calories - decending - Naxt Milestone: 2178 calories<br>   
+                Desc: slowly reduce caloric intake by 1% each day until ideal of 2000 calories is reached<br>
+            </p>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div id="wealth" class="columns">
+        <div class="column is-two-thirds">
+            <a href="/wealth"><h1 class="is-size-4 has-text-weight-bold">Wealth</h1></a>
+            <h3 class="h4 mb-2">The Wealth aspect is about financial health and growth</h3>
+            <p class="is-size-6 has-text-black">                
+                Examples of WEALTH Tasks include: <br>
+                - Savings - $1000 - ascending - Next Milestone: $1010 <br>
+                Desc: Increase savings by 1% or $10 for next milestone of $1010 <br>
+                - Yearly Income - $50,000 - ascending - Next Milestone: $50,500<br>   
+                Desc: Increase income by 1%<br>
+            </p>
+        </div>
+        <div class="column is-one-third">
+            <figure class="image is-square">
+                <img src="static/images/wealth.webp" />
+            </figure>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div id="wisdom" class="columns">
+        <div class="column is-one-third">
+            <figure class="image is-square">
+                <img src="static/images/wisdom.webp" />
+            </figure>
+        </div>
+        <div class="column is-two-thirds">
+            <a href="/wisdom"><h1 class="is-size-4 has-text-weight-bold">Wisdom</h1></a>
+            <h3 class="h4 mb-2">The Wisdom aspect is about mental health and growth</h3>
+            <p class="is-size-6 has-text-black">                
+                Examples of WISDOM Tasks include: <br>
+                - Reading - 30 min - ascending - Next Milestone: 31 min <br>
+                Desc: Increase reading time by 1 min for next milestone of 31 min <br>
+                - Meditation - 10 min - ascending - Next Milestone: 11 min<br>   
+                Desc: Increase meditation time by 1 min for next milestone of 11 min <br>
+            </p>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div id="skills" class="columns">
+        <div class="column is-two-thirds">
+            <a href="/skills"><h1 class="is-size-4 has-text-weight-bold">Skills</h1></a>
+            <h3 class="h4 mb-2">The Skills aspect is about personal and professional growth</h3>
+            <p class="is-size-6 has-text-black">                
+                Examples of SKILLS Tasks include: <br>
+                - Javascript Coding - 1 hour - ascending - Next Milestone: 1 hour 1 min <br>
+                Desc: Increase coding time by 1 min for next milestone of 1 hour 1 min <br>
+                - Creative Writing - 500 words - ascending - Next Milestone: 510 words<br>   
+                Desc: Increase writing by 10 words for next milestone of 510 words <br>
+            </p>
+        </div>
+        <div class="column is-one-third">
+            <figure class="image is-square">
+                <img src="static/images/skills.webp" />
+            </figure>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+        <h1 class="is-size-4 has-text-weight-bold">The Journey</h1>
+        <p class="is-size-6 has-text-black">                
+           You are the Hero of your own story. You will be the one to set the tasks, we just help you reach your milestones.<br><br>
+           The Journey is about realizing where you are and setting your feet on a path of improvement. Each day you will be bettering yourself not to reach any goal but to become the person you 
+           are capable of being. Our task are only focused on small improvements at first but as you grow those improvements will become larger and more impactful as the milestones compound. The more you advance, so do the milestones.<br><br>
+            Do not be fooled into thinking this will be easy. You will be starting at level zero and the first 20 milestones will be the easiest to reach. 
+            At level 1 you will have already completed 20 milestones in any aspect but now the real work begins. The weights will be getting heavier, the runs faster, the savings larger, and the income requirements 
+            more difficult. Study times will require more time. Some might stretch over a few days or weeks. The key is to keep moving forward. <br><br>
+        </p>
+        <div class="divider"></div>
+        <p class="is-size-4 has-text-weight-semibold">A Quick Example of Our Method</p>
+        <div class="columns mt-3">
+            <p class="column is-size-6 ">
+                <strong class="is-size-5 has-text-weight-semibold">levelZeroHero</strong> at Starting Level 0 : <br>
+                Strength: <br>
+                - 1 Mile Run - 600 seconds - decending- Next Milestone: 594 seconds <br>
+                - Pushups in 2 min - 60 reps - ascending- Next Milestone 61 reps<br>
+                Health: <br>
+                - Weight Loss - 200 lbs - descending- Next Milestone: 198 lbs <br>
+                Wealth: <br>
+                - Savings - $4235 - ascending- Next Milestone: Add +$42.35 <br>
+                - Monthly Income - $3000 - ascending - Next Milestone: Add +$30 a month<br>
+            </p>  
+            <p class="column is-size-6 ">
+                <strong class="is-size-5 has-text-weight-semibold">levelZeroHero</strong> after 35 milestones in each aspect Task with just 1% improvement: <br>
+                Strength: <br>
+                - 1 Mile Run - 422.07 seconds ( 10 min mile to 7 min mile) <br>
+                - Pushups in 2 min - 85 reps<br>
+                Health: <br>
+                - Weight - 140.69 lbs ( down 59 lbs)<br>
+                Wealth: <br>
+                - Savings - $5999.31 <br>
+                - Monthly Income - $4249.81<br>
+            </p>  
+        </div>          
+        <p class="is-size-5 has-text-weight-semibold">
+            levelZeroHero is now a Level 8 Hero: <br>
+            Strength Level 7 <br>
+            Health Level 3 <br>
+            Wealth Level 7 <br>
+            Total Milestones Completed: 175            
+        </p>   
+        <p class="is-size-6 mt-2">
+            This simple example shows the power of exponential growth. The first 20 milestones will be the easiest to reach but as you grow the milestones
+             will become more difficult, but the next step will always just be an attainable 1% improvement over yesterday. Once a goal is reached,
+              simply end the goal, start a new one, and keep your rank progress...   <br><br>
+            If you have an emergency, or have to use your savings for example... no problem, just set your new baseline and the process picks up where you left off. 
+            No lost progress, no lost time, just a new starting point.
+        </p>
+        <p class="is-size-6 mt-2">
+            Milestone Completion = 1 per milestone <br>
+            Each Milestone can only be updated once per day/ No gaming the system<br>
+            Level = 20 milestones in any aspect <br>
+            Aspect Level = 10 Milestones in that aspect <br>
+            Total milestones completed / 20 = Your Hero Level
+        </p>
+            
+    </div>
+        
+<!--Desktop Content End-->
+</div>
+
+

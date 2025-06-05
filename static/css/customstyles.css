@@ -1,0 +1,57 @@
+  /* Additional CSS file or <style> tag */
+@media screen and (max-width: 768px) {
+    .is-4-mobile {
+        font-size: 1.5rem; /* Adjust size as needed */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .is-2-desktop {
+        font-size: 2rem; /* Adjust size as needed */
+    }
+}
+
+body {
+    color: #4a4e69; /* Dark Grayish Blue */
+  }
+
+  /* Link color */
+  a {
+    color: #22223b; /* Very Dark Blue */
+  }
+
+  /* Bulma Primary Color */
+  .is-primary, .button.is-primary, .tag.is-primary {
+    background-color: #2a9d8f; /* Persian Green */
+    color: #ffffff;
+  }
+
+  /* Bulma Info Color */
+  .is-info, .button.is-info, .tag.is-info {
+    background-color: #264653; /* Dark Blue Green */
+    color: #ffffff;
+  }
+
+  /* Bulma Success Color */
+  .is-success, .button.is-success, .tag.is-success {
+    background-color: #2a9d8f; /* Persian Green */
+    color: #ffffff;
+  }
+
+  /* Bulma Warning Color */
+  .is-warning, .button.is-warning, .tag.is-warning {
+    background-color: #e9c46a; /* Orange Yellow Crayola */
+    color: #ffffff;
+  }
+
+  /* Bulma Danger Color */
+  .is-danger, .button.is-danger, .tag.is-danger {
+    background-color: #ee4b2b; /* Burnt Sienna */
+    color: #ffffff;
+  }
+  .divider {
+  height: 1px;
+  width: 100%;
+  background-color: #dbdbdb; /* Light grey color */
+  margin: 20px 0; /* Adds space above and below the divider */
+  }

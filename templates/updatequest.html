@@ -1,0 +1,102 @@
+<!-- Update Quest Form -->
+<div class="container is-fluid">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Update Quest</h1>
+      <form action="/updatequestvariables/{{.quest.ID}}" method="POST">
+        <input type="hidden" name="id" value="{{.quest.ID}}">
+
+        <div class="field">
+          <label class="label">Category</label>
+          <div class="control">
+            <div class="select">
+              <select required name="category">
+                <option value="{{.quest.Category}}">{{.quest.Category}}</option>
+                <option value="Strength" {{if eq .quest.Category "Strength"}}selected{{end}}>Strength</option>
+                <option value="Health" {{if eq .quest.Category "Health"}}selected{{end}}>Health</option>
+                <option value="Wealth" {{if eq .quest.Category "Wealth"}}selected{{end}}>Wealth</option>
+                <option value="Wisdom" {{if eq .quest.Category "Wisdom"}}selected{{end}}>Wisdom</option>
+                <option value="Skills" {{if eq .quest.Category "Skills"}}selected{{end}}>Skills</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Quest Title</label>
+          <div class="control">
+            <input required class="input" type="text" name="title" value="{{.quest.Title}}" placeholder="{{.quest.Title}}">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Quest Description</label>
+          <div class="control">
+            <textarea required class="textarea" name="description" placeholder="{{.quest.Description}}">{{.quest.Description}}</textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Unit of Measure</label>
+          <small class="is-size-7">Unit of Measure. It is important to choose a smaller unit of measure for proper functionality.</small>
+          <div class="control">
+            <div class="select">
+              <select required name="unit">
+                <option value="{{.quest.Unit}}">Current:{{.quest.Unit}}</option>
+                <option value="Lbs" {{if eq .Unit "Lbs"}}selected{{end}}>Lbs</option>
+                <option value="Minutes" {{if eq .quest.Unit "Minutes"}}selected{{end}}>Minutes</option>
+                <option value="Seconds" {{if eq .quest.Unit "Seconds"}}selected{{end}}>Seconds</option>
+                <option value="Dollars" {{if eq .quest.Unit "Dollars"}}selected{{end}}>Dollars</option>
+                <option value="Reps" {{if eq .quest.Unit "Reps"}}selected{{end}}>Repetitions</option>
+                <option value="Other" {{if eq .quest.Unit "Other"}}selected{{end}}>Other Unit</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Is this an Ascending or Descending Goal?</label>
+          <small class="is-size-7">Body weight is typically a Descending Goal while Savings would be Ascending.</small>
+          <div class="control">
+            <div class="select">
+              <select required name="ascending">
+                <option value="{{.quest.Ascending}}">Select Goal Type</option>
+                <option value="true" {{if eq .quest.Ascending true}}selected{{end}}>More</option>
+                <option value="false" {{if eq .quest.Ascending false}}selected{{end}}>Less</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Starting Value</label>
+          <div class="control">
+            <input class="input" type="number" step="0.01" name="starting" value="{{.quest.Starting}}" placeholder="{{.quest.Starting}}" required>
+          </div>
+          <small class="is-size-7">Where are you today</small>
+        </div>
+
+        <div class="field">
+          <label class="label">Current Value</label>
+          <div class="control">
+            <input class="input" type="number" step="0.01" name="current" value="{{.quest.Current}}" placeholder="{{.quest.Current}}" required>
+          </div>
+          <small class="is-size-7">Current progress</small>
+        </div>
+
+        <div class="field">
+          <label class="label">Notes</label>
+          <div class="control">
+            <textarea class="textarea" name="notes" placeholder="{{.quest.Notes}}">{{.quest.Notes}}</textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit">Update Quest</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
